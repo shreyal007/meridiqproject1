@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T12:07:14 IST" name="Default suite" finished-at="2024-09-13T12:08:00 IST" duration-ms="45757">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T12:07:14 IST" name="Default test" finished-at="2024-09-13T12:08:00 IST" duration-ms="45757">
+      <class name="testDownload.DownloadZipFromClient">
+        <test-method is-config="true" signature="login()[pri:0, instance:testDownload.DownloadZipFromClient@31368b99]" started-at="2024-09-13T12:07:14 IST" name="login" finished-at="2024-09-13T12:07:44 IST" duration-ms="29683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="goToClient()[pri:1, instance:testDownload.DownloadZipFromClient@31368b99]" started-at="2024-09-13T12:07:44 IST" name="goToClient" finished-at="2024-09-13T12:07:47 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToClient -->
+        <test-method signature="searchClient()[pri:2, instance:testDownload.DownloadZipFromClient@31368b99]" started-at="2024-09-13T12:07:47 IST" name="searchClient" finished-at="2024-09-13T12:07:56 IST" duration-ms="9326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClient -->
+        <test-method signature="downloadZIP()[pri:3, instance:testDownload.DownloadZipFromClient@31368b99]" started-at="2024-09-13T12:07:56 IST" name="downloadZIP" finished-at="2024-09-13T12:07:59 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadZIP -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testDownload.DownloadZipFromClient@31368b99]" started-at="2024-09-13T12:07:59 IST" name="quitBrowser" finished-at="2024-09-13T12:08:00 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testDownload.DownloadZipFromClient -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
